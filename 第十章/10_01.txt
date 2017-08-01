@@ -1,0 +1,28 @@
+1、颜色定义：共有5种方式
+	h3{color:blue;} //使用颜色的英文名称作为属性值
+	h3{color:#0000ff;} //使用一个6位的十六进制数值表示
+	h3{color:#00f;}	//上一种方式的简写方式，形如#aabbcc的颜色值，就可以简写为#abc
+	h3{color:rgb(0,0,255);}// 分别给出红绿蓝3种颜色分量的十进制数值
+	h3{color:rgb(0%,0%,100%);}//分别给出红绿蓝3种颜色分量的百分比
+2、设置文字的字体
+	font-family:黑体;
+3、设置文字的加粗效果
+	font-weight:normal //正常粗细
+	font-weight:bold  //粗体
+	font-weight:bolder //加粗体
+	font-weight:lightter //比正常粗细还细
+	font-weight:100  //为100 --900 共9个层次，数值越大，字体越粗
+4、英文字母大小写转换
+	p.one{text-transform:captialize;}//单词首字母大写
+	p.two{text-transform:uppercase;}//全部大写
+	p.three{text-transform:lowercase}//全部小写
+5、设置文字大小
+	font-size：12px;
+6、文字的装饰效果
+	text-decoration:none    //正常显示
+	text-decoration:underline          //为文字加下划线
+	text-decoration:line-through	//为文字加删除线
+	text-decoration:overtime  //为文字加顶线
+	text-decoration:bink     	//文字闪烁，仅部分浏览器支持
+7、设置段落首行缩进
+	#p2{ text-indent:2em}  

@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>  </title>
+		<style type="text/css">
+		#outerBox{
+			width:200px;
+			height:100px;
+			border:2px black solid;
+			
+			border-left:4px green dashed;
+			border-color:red gray orange blue;/*上 右 下 左*/
+			border-right-color：purple;
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div id="outerBox">
+			
+		</div>
+	</body>
+	
+</html>

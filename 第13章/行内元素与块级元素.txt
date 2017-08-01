@@ -1,0 +1,6 @@
+行内元素（inline）与块级元素(block level)：
+	行内元素： 对于这类元素，各个元素横向排列，到最右端自动折行，这就是行内元素
+	块级元素：对于这类元素，依次竖直排列，不会排在同一行中，这就是块级元素
+
+常见块级元素：div  , p  , form,   ul,  li ,  ol, dl,    form,   address,  fieldset,  hr, menu,  table
+   行内元素：span,   strong,   em,  br,  img ,  input,  label,  select,  textarea,  cite, 

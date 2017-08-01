@@ -1,0 +1,25 @@
+1、设置图片边框
+	<img src="img.jpg" border="0">  //为0时，表示无边框
+	<img src="img.jpg" border="2">   //边框黑色，实线，这种方法存在着很大的限制
+	
+		边框由3个要素组成：
+			border-width(粗细)：可以使用CSS中的长度单位，最常用的是像素px
+			border-color (颜色)：使用各种合法的颜色来定义方法
+			border-style(线型)：可以使用一些预先定义好的线型中选择（如dotted 点画线;dashed 虚线）
+			
+	常用设置边框的方法如下：
+	<style type="text/css">
+		.test{
+			border-style:dotted;   //点画线
+			border-color: blue;
+			border-width:4px;
+		}
+	</style>
+	<body>
+		<img src="img.jpg" class="test">
+	</body>
+	  上述将上下左右四条边框同时产生作用，均设置为了点画线
+	如若为分别设置4条边框的不同样式，只需分别设定border-left,border-right,border-top,和border-bottom
+
+2、图片缩放
+通过width和height两个属性来进行设置

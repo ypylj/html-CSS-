@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>继承关系演示</title>
+		<!--
+			Css继承指的子标记会继承父标记得所有样式风格，并且可以在父标记样式的基础上再加以修改，产生新的样式，
+			而子标记的样式风格完全不会影响父标记。
+		-->
+		<style type="text/css">
+			h1{
+				color:blue;
+				text-decoration:underline;/*下划线*/
+			}
+			em{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>前沿<em>Web开发</em>教程</h1>
+		<!--<em> 标签告诉浏览器把其中的文本表示为强调的内容。对于所有浏览器来说，这意味着要把这段文字用斜体来显示。-->
+		<ul>
+			<li>web开发需要使用以下技术：
+				<ul>
+					<li>HTML</li>
+					<li>CSS
+						<ul>
+							<li>选择器</li>
+							<li>盒子模型</li>
+							<li>浮动与定位</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>此外，还需要掌握：
+				<ol>
+					<li>Flash</li>
+					<li>Dreamweaver</li>
+					<li>Photoshop</li>
+					
+				</ol>
+			</li>
+			</ul>
+	</body>
+</html>
